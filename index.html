@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Asia Limited I-Banking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/logo.svg" type="image/svg" sizes="16x16">
+    <script src="script.js"></script>
+</head>
+<body onload="isLogged()">
+    <div id="login-section">
+        <image src="image/logo.svg" id="logo" alt="logo bank asia"></image>
+        <h1 class="heading">BANK ASIA LIMITED</h1><br>
+        <h4 class="heading" id="sub-heading">I-BANKING</h4>
+        <p id="error-messages"></p>
+        <input type="email" id="email" placeholder="Email: example@ibanking.com" required><br>
+        <input type="password" id="password" placeholder="Enter Password" required><br>
+        <input type="submit" id="submit-btn" value="Login" onclick="login()">
+    </div>
+
+    <div id="logout-section">
+        <div id="deposite-section">
+            <div class="deposite deposite-box">
+                <h3>Deposite</h3>
+                <p id="deposite">$00</p>
+            </div>
+            <div class="deposite withdraw-box">
+                <h3>Withdraw</h3>
+                <p id="withdraw">$00</p>
+            </div>
+            <div class="deposite balance-box">
+                <h3>Balance</h3>
+                <p id="balance">$00</p>
+            </div>
+        </div>
+        <div id="deposite-input-section">
+            <div class="deposite-input-box input-box">
+                <h3 class="deposite-heading">Deposite Ammount:</h3>
+                <input type="text" class="deposite-input" id="deposite-input" placeholder="$">
+                <input type="submit" class="deposite-button" value="Deposite" onclick="deposite()">
+            </div>
+            <div class="withdraw-input-box input-box">
+                <h3 class="deposite-heading">Withdraw Ammount:</h3>
+                <input type="text" class="deposite-input" id="withdraw-input" placeholder="$" autocomplete="off">
+                <input type="submit" class="deposite-button" value="Withdraw" onclick="withdraw()">
+            </div>
+        </div>
+        <a href="" onclick="logout()" id="logout">Logout</a>
+    </div>
+</body>
+</html>

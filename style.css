@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+}
+#login-section{
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid yellowgreen;
+    width: 500px;
+    height: 400px;
+    display: block;
+}
+#logo{
+    width: 50px;
+    height: 100px;
+    float: left;
+    padding-left:50px ;
+}
+.heading{
+    color: green;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+#sub-heading{
+    padding-bottom: 15px;
+    position: absolute;
+    left: 46%;
+    margin-top: -35px;
+
+}
+
+#email, #password{
+    padding: 5px 20px;
+    width: 250px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    border-color: yellowgreen;
+    clear: both;
+}
+
+#submit-btn{
+    display: block;
+    margin: auto;
+    width: 135px;
+    height: 45px;
+    background-color: #1AA71A;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+#error-messages{
+    color:red;
+    text-align: center;
+}
+#logout-section{
+    display: none;
+    margin: 2% auto;
+    width: 800px;
+    height: 600px;
+    border-color: black;
+    background-color: rgb(240, 197, 197);
+}
+#logout{
+    position: fixed;
+    top: 78%;
+    left: 45%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(123, 138, 123);
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+#logout:hover{
+    font-size: 22px;
+}
+#deposite-section{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    box-sizing: border-box;
+    border-spacing: 10px;
+    padding: 10px;
+}
+.deposite{
+    width: 33.3%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10;
+    color: white;
+    margin-left: 15px;
+}
+.deposite:hover{
+    font-size:33px;
+}
+.deposite-box{
+    background-color: dodgerblue;
+    
+}
+.withdraw-box{
+    background-color: tomato
+}
+.balance-box{
+    background-color: lightseagreen;
+    color: white;
+}
+#deposite-input-section{
+    display: flex;
+}
+.input-box{
+    width: 25%;
+    background-color: rgb(128, 105, 101);
+    padding: 20px;
+    margin: 20px;
+}
+.deposite-input{
+    width: 160px;
+    height: 45px;
+    padding: 15px;
+    font-size: 40px;
+}
+.deposite-heading{
+    color: white;
+    font-size: 20px;
+    font-weight: 300px;
+}
+.deposite-button{
+    margin: 10px 0px;
+    width: 192px;
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(100, 75, 75);
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.deposite-button:hover{
+    color: yellowgreen;
+    font-size: 20px;
+}
+
